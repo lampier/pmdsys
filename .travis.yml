@@ -1,0 +1,30 @@
+language: node_js
+node_js:
+  - "4"
+  
+jdk:
+  - oraclejdk8
+  
+addons:
+  apt:
+    packages:
+      - oracle-java8-installer
+  sonarqube: true
+   
+before_script:
+    - cd PASTA_PROJETO
+    - npm install
+    - export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+
+script: 
+  - npm test
+  - cd ..
+  - sonar-scanner
+  
+
+branches:
+  only:
+    - master
+
+notifications:
+  slack: 
