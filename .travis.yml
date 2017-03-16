@@ -20,11 +20,6 @@ script:
   - npm test
   - cd ..
   - sonar-scanner
-  
-
-branches:
-  only:
-    - master
 
 notifications:
   slack: 
