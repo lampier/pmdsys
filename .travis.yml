@@ -16,7 +16,7 @@ addons:
 before_script:
     - cd pmdsys
     - npm install
-    - ionic serve
+    - npm install -g ionic cordova
     - export JAVA_HOME=/usr/lib/jvm/java-8-oracle
 
 script: 
