@@ -14,12 +14,14 @@ addons:
     token: $SONAR_TOKEN
    
 before_script:
-    - cd PASTA_PROJETO
+    - cd pmdsys
     - npm install
+    - ionic serve
     - export JAVA_HOME=/usr/lib/jvm/java-8-oracle
 
 script: 
   - npm test
+  - ionic serve
   - cd ..
   - sonar-scanner
 
