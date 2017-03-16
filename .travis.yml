@@ -9,7 +9,8 @@ addons:
   apt:
     packages:
       - oracle-java8-installer
-  sonarqube: true
+  sonarqube: 
+    token: $SONAR_TOKEN
    
 before_script:
     - cd PASTA_PROJETO
