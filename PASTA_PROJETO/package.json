@@ -6,4 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "license": null,
+  "repository": "https://github.com/malubsi/pmdsys"
 }
