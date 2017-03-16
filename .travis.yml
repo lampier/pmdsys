@@ -19,7 +19,7 @@ before_script:
 script: 
   - npm test
   - cd ..
-  - sonar-scanner
+  - sonar-scanner -X
 
 notifications:
   slack: 
