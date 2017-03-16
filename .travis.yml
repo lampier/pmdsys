@@ -9,7 +9,8 @@ addons:
   apt:
     packages:
       - oracle-java8-installer
-  sonarqube: 
+  sonarqube:
+    organization: "adlerosn-github"
     token: $SONAR_TOKEN
    
 before_script:
