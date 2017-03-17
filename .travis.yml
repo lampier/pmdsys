@@ -28,7 +28,7 @@ before_install:
 script: 
   - npm test
   - cd ..
-  - sonar-scanner
+  - sonar-scanner -ts
 
 notifications:
   slack: 
