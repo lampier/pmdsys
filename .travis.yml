@@ -16,6 +16,8 @@ addons:
 before_script:
     - cd PASTA_PROJETO
     - npm install
+    - npm install -g cordova
+    - npm install -g ionic
     - export JAVA_HOME=/usr/lib/jvm/java-8-oracle
 
 script: 
