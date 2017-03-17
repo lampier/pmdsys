@@ -12,7 +12,8 @@ addons:
   sonarqube:
     organization: "adlerosn-github"
     token: $SONAR_TOKEN
- services:
+
+services:
   - docker
 
 install:
@@ -36,4 +37,4 @@ script:
   - sonar-scanner
 
 notifications:
-  slack: 
+  slack:
