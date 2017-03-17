@@ -22,7 +22,7 @@ before_script:
 
 script: 
   - npm test
-  - cd pmdsys
+  - cd ../pmdsys
   - ionic build browser --prod
   - cd ..
   - sonar-scanner
