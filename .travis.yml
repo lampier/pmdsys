@@ -37,4 +37,4 @@ script:
   - sonar-scanner
 
 notifications:
-  slack:
+  slack:hotpointmarket:HmGTsUw1lVIfPG29d8JGjP5c
